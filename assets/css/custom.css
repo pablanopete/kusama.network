@@ -1,0 +1,189 @@
+/*
+/*
+/*  custom.css
+/*
+/*  If not using Gulp and Sass, add your custom CSS below then include it
+/*  in your page by adding a reference to assets/css/custom.css in the head of each page.
+/*
+*/
+.navbar[data-sticky="top"].scrolled.navbar-dark {
+    background: #000000;
+    border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+nav[data-overlay].navbar-toggled-show.navbar-dark {
+    background: #000000;
+}
+
+.navbar-dark {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+img.logo {
+    height: 1.25rem;
+}
+
+.nav-link .icon {
+    height: 1.25rem;
+}
+
+.nav-link svg.icon * {
+    fill: #ffffff;
+    opacity: .5;
+}
+
+.nav-link svg.icon *:hover {
+    fill: #ffffff;
+    opacity: .75;
+}
+
+.bg-primary {
+    background-color: #e6007a !important;
+}
+
+.bg-dark {
+    background-color: #000000 !important;
+}
+
+.text-primary {
+    color: #e6007a !important;
+}
+
+a {
+    color: #e6007a;
+}
+
+a:hover {
+    color: #cd0061;
+}
+
+.text-spaced {
+    letter-spacing: 1em;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #e6007a;
+    border-color: #e6007a;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #cd0061;
+    border-color: #cd0061;
+}
+
+.btn-outline-primary {
+    color: #e6007a;
+    border-color: #e6007a;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #cd0061;
+    border-color: #cd0061;
+}
+
+.btn-cta.btn-outline-primary:hover {
+    background-color: #000000;
+    border-color: #b30047;
+}
+
+.btn-outline-white:hover {
+    border-color: #92969a;
+}
+
+.btn-white {
+    color: #e6007a;
+}
+
+.btn-white:hover {
+    color: #cd0061;
+}
+
+.btn, .btn-lg, .btn-group-lg>.btn {
+    border-radius: 2rem;
+}
+
+.btn-round {
+    border-radius: 50%
+}
+
+.nav-link.btn.active {
+    background: #e6007a;
+    color: #fff;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #e6007a;
+}
+
+.list-group-item.row:hover h5 {
+    color: #212529;
+}
+
+.list-group-item.row:hover span {
+    color: #495057;
+}
+
+.list-group-item.row:hover span.h6 {
+    color: #212529;
+}
+
+svg.bg-primary * {
+    fill: #e6007a;
+}
+
+.form-control {
+    border-radius: 2rem;
+}
+
+.accordion-panel-title[aria-expanded="true"]>*, .accordion-panel-title:hover>* {
+    color: #e6007a;
+}
+
+.accordion-panel-title[aria-expanded="true"]>* path, .accordion-panel-title:hover>* path {
+    fill: #e6007a;
+}
+
+svg.icon * {
+    fill: #e6007a;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+a.text-underline:hover {
+    text-decoration: underline;
+}
+
+.btn-lang > span {
+    font-family: 'SpaceMono-Regular','Helvetica','Arial', sans-serif;
+}
+
+.btn-lang {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-lang:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.form-control {
+    border: 1px solid #212529;
+}
