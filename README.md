@@ -1,0 +1,2 @@
+# kusama.network
+Kusama website
