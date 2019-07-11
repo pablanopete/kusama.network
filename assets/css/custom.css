@@ -93,12 +93,21 @@ a:hover {
     border-color: #cd0061;
 }
 
+.btn-cta.btn-outline-primary {
+    background-color: #000000;
+}
+
 .btn-cta.btn-outline-primary:hover {
     background-color: #000000;
     border-color: #b30047;
 }
 
-.btn-outline-white:hover {
+.btn-cta.btn-outline-white {
+    background-color: #000000;
+}
+
+.btn-cta.btn-outline-white:hover {
+    background-color: #000000;
     border-color: #92969a;
 }
 
@@ -186,4 +195,12 @@ a.text-underline:hover {
 
 .form-control {
     border: 1px solid #212529;
+}
+
+.bg-cover {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: absolute;
+    height: 500px;
 }
