@@ -34,7 +34,7 @@ nav[data-overlay].navbar-toggled-show.navbar-dark {
 }
 
 img.logo {
-    height: 1.25rem;
+    height: 1.75rem;
 }
 
 .nav-link .icon {
@@ -208,4 +208,9 @@ a.text-underline:hover {
     background-position: center;
     position: absolute;
     height: 500px;
+}
+
+.decoration.ksma-gif {
+    bottom: 0;
+    left: 29%;
 }

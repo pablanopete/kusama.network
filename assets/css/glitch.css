@@ -188,11 +188,12 @@
 
 .text-glitch:before {
     left: -2px;
-    text-shadow: 2px 0 blue;
+    text-shadow: 2px 0 #e6007a;
     animation: text-glitch-anim-2 3s infinite linear alternate-reverse;
 }
 
-/*(TEXT) PARAMS
+/*
+(TEXT) PARAMS
   =================
   1. Namespace
   2. Intensity
@@ -377,8 +378,198 @@
 
 .text-glitch-pink:before {
    left: -2px;
-   text-shadow: 2px 0 blue;
+   text-shadow: 2px 0 #e6007a;
    animation: text-glitch-anim-2 3s infinite linear alternate-reverse;
+}
+
+/*
+(TAGLINE) PARAMS
+  =================
+  1. Namespace
+  2. Intensity
+  3. Text color
+  4. Background color (flat)
+  5. Highlight #1 color
+  6. Highlight #2 color
+  7. Width (px)
+  8. Height (px)
+*/
+.tagline-glitch {
+   font-family: 'Visuelt-Medium','Helvetica','Arial', sans-serif;
+   font-size: 2rem;
+   font-weight: 400;
+   color: #ffffff;
+   position: relative;
+}
+
+@keyframes tagline-glitch-anim-1 {
+   0% {
+       clip: rect(52px, 500px, 66px, 0);
+   }
+
+   5.88235% {
+       clip: rect(14px, 500px, 99px, 0);
+   }
+
+   11.76471% {
+       clip: rect(37px, 500px, 10px, 0);
+   }
+
+   17.64706% {
+       clip: rect(83px, 500px, 18px, 0);
+   }
+
+   23.52941% {
+       clip: rect(48px, 500px, 95px, 0);
+   }
+
+   29.41176% {
+       clip: rect(77px, 500px, 14px, 0);
+   }
+
+   35.29412% {
+       clip: rect(63px, 500px, 102px, 0);
+   }
+
+   41.17647% {
+       clip: rect(87px, 500px, 75px, 0);
+   }
+
+   47.05882% {
+       clip: rect(31px, 500px, 54px, 0);
+   }
+
+   52.94118% {
+       clip: rect(104px, 500px, 3px, 0);
+   }
+
+   58.82353% {
+       clip: rect(69px, 500px, 107px, 0);
+   }
+
+   64.70588% {
+       clip: rect(72px, 500px, 52px, 0);
+   }
+
+   70.58824% {
+       clip: rect(29px, 500px, 28px, 0);
+   }
+
+   76.47059% {
+       clip: rect(109px, 500px, 6px, 0);
+   }
+
+   82.35294% {
+       clip: rect(21px, 500px, 72px, 0);
+   }
+
+   88.23529% {
+       clip: rect(107px, 500px, 108px, 0);
+   }
+
+   94.11765% {
+       clip: rect(71px, 500px, 69px, 0);
+   }
+
+   100% {
+       clip: rect(98px, 500px, 85px, 0);
+   }
+}
+
+@keyframes tagline-glitch-anim-2 {
+   0% {
+       clip: rect(41px, 500px, 81px, 0);
+   }
+
+   5.88235% {
+       clip: rect(60px, 500px, 9px, 0);
+   }
+
+   11.76471% {
+       clip: rect(101px, 500px, 34px, 0);
+   }
+
+   17.64706% {
+       clip: rect(19px, 500px, 10px, 0);
+   }
+
+   23.52941% {
+       clip: rect(82px, 500px, 64px, 0);
+   }
+
+   29.41176% {
+       clip: rect(108px, 500px, 83px, 0);
+   }
+
+   35.29412% {
+       clip: rect(87px, 500px, 8px, 0);
+   }
+
+   41.17647% {
+       clip: rect(104px, 500px, 43px, 0);
+   }
+
+   47.05882% {
+       clip: rect(68px, 500px, 24px, 0);
+   }
+
+   52.94118% {
+       clip: rect(40px, 500px, 114px, 0);
+   }
+
+   58.82353% {
+       clip: rect(67px, 500px, 12px, 0);
+   }
+
+   64.70588% {
+       clip: rect(68px, 500px, 40px, 0);
+   }
+
+   70.58824% {
+       clip: rect(17px, 500px, 88px, 0);
+   }
+
+   76.47059% {
+       clip: rect(35px, 500px, 111px, 0);
+   }
+
+   82.35294% {
+       clip: rect(89px, 500px, 38px, 0);
+   }
+
+   88.23529% {
+       clip: rect(79px, 500px, 42px, 0);
+   }
+
+   94.11765% {
+       clip: rect(24px, 500px, 69px, 0);
+   }
+
+   100% {
+       clip: rect(14px, 500px, 31px, 0);
+   }
+}
+
+.tagline-glitch:before, .text-glitch:after {
+   content: attr(data-text);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background: black;
+   clip: rect(0, 0, 0, 0);
+}
+
+.tagline-glitch:after {
+   left: 2px;
+   text-shadow: -1px 0 red;
+   animation: tagline-glitch-anim-1 2s infinite linear alternate-reverse;
+}
+
+.tagline-glitch:before {
+   left: -2px;
+   text-shadow: 2px 0 #e6007a;
+   animation: tagline-glitch-anim-2 3s infinite linear alternate-reverse;
 }
 
 /*
@@ -546,7 +737,8 @@
     animation: logo-glitch-anim-2 3s infinite linear alternate-reverse;
 }
 
-/* (TEXT) PARAMS FOR 404 AND THANK-YOU PAGE
+/*
+(H1) PARAMS FOR 404 AND THANK-YOU PAGE
   =================
   1. Namespace
   2. Intensity
@@ -733,6 +925,6 @@
 
 .h1-glitch:before {
    left: -2px;
-   text-shadow: 2px 0 blue;
+   text-shadow: 2px 0 #e6007a;
    animation: h1-glitch-anim-2 3s infinite linear alternate-reverse;
 }
