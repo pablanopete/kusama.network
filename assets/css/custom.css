@@ -218,3 +218,7 @@ img.bg-gif {
         margin-top: -100px;
     }
 }
+
+.article ul + h4 {
+    margin-top: 3rem;
+}
