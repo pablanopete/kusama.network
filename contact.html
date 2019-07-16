@@ -5,14 +5,27 @@
     <meta charset="utf-8">
     <title>Contact | Kusama</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Get in touch with the Kusama team">
+    <meta name="description" content="Get in touch with the Kusama team.">
     <link href="assets/css/loaders/loader-typing.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/custom.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/fonts.css" rel="stylesheet" type="text/css" media="all">
     <link href="assets/css/glitch.css" rel="stylesheet" type="text/css" media="all">
     <link rel="shortcut icon" type="image/ico" href="assets/img/favicon.ico"/>
-    <meta name="robots" content="noindex">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kusama.network/">
+    <meta property="og:title" content="Kusama — A canary network for Polkadot experiments">
+    <meta property="og:description" content="Kusama is a community research and development network for experimenting cutting-edge blockchain projects.">
+    <meta property="og:image" content="assets/img/og-card.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kusama.network/">
+    <meta property="twitter:title" content="Kusama — A canary network for Polkadot experiments">
+    <meta property="twitter:description" content="Kusama is a community research and development network for experimenting cutting-edge blockchain projects.">
+    <meta property="twitter:image" content="assets/img/og-card.png">
 </head>
 
 <body>
@@ -37,6 +50,7 @@
                             <li class="nav-item">
                                 <a href="https://guide.kusama.network/" class="nav-link">User Guide</a>
                             </li>
+                            <!-- LANGUAGE DROPDOWN
                             <li class="nav-item">
                                 <div class="dropdown">
                                     <button class="btn btn-lang btn-transparent dropdown-toggle rounded-0 py-1" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false">
@@ -49,7 +63,7 @@
                                         <a class="dropdown-item" href="ru/index.html">русский</a>
                                     </div>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
                                 <a href="https://twitter.com/kusamanetwork" target="_blank" class="nav-link">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" class="icon undefined" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -68,7 +82,7 @@
                             </li>
                         </ul>
                     </div>
-                    <a href="http://claims.kusama.network/" target="_blank" class="btn btn-outline-primary ml-lg-3">Claim KSMA</a>
+                    <a href="http://claim.kusama.network/" target="_blank" class="btn btn-outline-primary ml-lg-3">Claim KSM</a>
                 </div>
             </div>
         </nav>
@@ -92,11 +106,11 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col">
-                    <h2>Choose your flavor</h2>
+                    <h2>Choose your channel</h2>
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <a href="#" target="_blank" class="card card-sm card-body flex-row align-items-center hover-shadow-3d">
-                                <img src="assets/img/square-pink.png" alt="Polkascan" class="icon icon-lg">
+                            <a href="https://forum.kusama.network/" target="_blank" class="card card-sm card-body flex-row align-items-center hover-shadow-3d">
+                                <img src="assets/img/icons/discord.svg" alt="Discord forum" class="icon icon-lg">
                                 <div class="ml-3">
                                     <h5 class="mb-0">Discord Forum</h5>
                                     <span>For general chat</span>
@@ -104,8 +118,8 @@
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <a href="#" target="_blank" class="card card-sm card-body flex-row align-items-center hover-shadow-3d">
-                                <img src="assets/img/square-pink.png" alt="Blockdaemon" class="icon icon-lg">
+                            <a href="https://riot.im/app/#/room/#kusamawatercooler:polkadot.builders" target="_blank" class="card card-sm card-body flex-row align-items-center hover-shadow-3d">
+                                <img src="assets/img/icons/riot.svg" alt="Riot chat" class="icon icon-lg">
                                 <div class="ml-3">
                                     <h5 class="mb-0">Riot Chat</h5>
                                     <span>For general chat</span>
@@ -113,17 +127,17 @@
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <a href="#" target="_blank" class="card card-sm card-body flex-row align-items-center hover-shadow-3d">
-                                <img src="assets/img/square-pink.png" alt="Cobo" class="icon icon-lg">
+                            <a href="https://riot.im/app/#/room/#KSMAClaims:polkadot.builders" target="_blank" class="card card-sm card-body flex-row align-items-center hover-shadow-3d">
+                                <img src="assets/img/icons/riot.svg" alt="KSM Claiming Support" class="icon icon-lg">
                                 <div class="ml-3">
-                                    <h5 class="mb-0">KSMA Claiming Support</h5>
+                                    <h5 class="mb-0">KSM Claiming Support</h5>
                                     <span>Riot chat</span>
                                 </div>
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <a href="#" target="_blank" class="card card-sm card-body flex-row align-items-center hover-shadow-3d">
-                                <img src="assets/img/square-pink.png" alt="Speckle OS" class="icon icon-lg">
+                            <a href="mailto:wut@kusama.network" class="card card-sm card-body flex-row align-items-center hover-shadow-3d">
+                                <img src="assets/img/icons/email.svg" alt="Email" class="icon icon-lg">
                                 <div class="ml-3">
                                     <h5 class="mb-0">wut@kusama.network</h5>
                                     <span>General inquiries</span>
@@ -131,8 +145,8 @@
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <a href="#" target="_blank" class="card card-sm card-body flex-row align-items-center hover-shadow-3d">
-                                <img src="assets/img/square-pink.png" alt="BlockX Labs" class="icon icon-lg">
+                            <a href="mailto:sos@kusama.network" class="card card-sm card-body flex-row align-items-center hover-shadow-3d">
+                                <img src="assets/img/icons/email.svg" alt="Email" class="icon icon-lg">
                                 <div class="ml-3">
                                     <h5 class="mb-0">sos@kusama.network</h5>
                                     <span>Emergencies</span>
@@ -140,8 +154,8 @@
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <a href="#" target="_blank" class="card card-sm card-body flex-row align-items-center hover-shadow-3d">
-                                <img src="assets/img/square-pink.png" alt="Polka.io" class="icon icon-lg">
+                            <a href="https://twitter.com/kusamanetwork" target="_blank" class="card card-sm card-body flex-row align-items-center hover-shadow-3d">
+                                <img src="assets/img/icons/twitter.svg" alt="Twitter" class="icon icon-lg">
                                 <div class="ml-3">
                                     <h5 class="mb-0">@kusamanetwork</h5>
                                     <span>Twitter</span>
@@ -149,7 +163,7 @@
                             </a>
                         </div>
                     </div>
-                    <span>For bug bounty up to 500 DOTs, see the <a href="#">bug bounty policy</a> and contact <a href="mailto:sos@kusama.network">sos@kusama.network</a>.</span>
+                    <span>For bug bounty up to 500 DOTs, see the <a href="https://guide.kusama.network/bug-bounty/">bug bounty policy</a> and contact <a href="mailto:sos@kusama.network">sos@kusama.network</a>.</span>
                 </div>
             </div>
         </div>
@@ -192,10 +206,7 @@
                     <h5>Info</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Telemetry</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="http://claims.kusama.network/" target="_blank" class="nav-link">Claim KSMA</a>
+                            <a href="http://claim.kusama.network/" target="_blank" class="nav-link">Claim KSM</a>
                         </li>
                         <li class="nav-item">
                             <a href="https://guide.kusama.network/" class="nav-link">User guide</a>
@@ -204,10 +215,10 @@
                             <a href="teams.html" class="nav-link">Teams</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Bug bounty</a>
+                            <a href="https://guide.kusama.network/bug-bounty/" class="nav-link">Bug bounty</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Code of conduct</a>
+                            <a href="https://guide.kusama.network/code-of-conduct/" class="nav-link">Code of conduct</a>
                         </li>
                     </ul>
                 </div>
@@ -218,13 +229,13 @@
                             <a href="https://twitter.com/kusamanetwork" target="_blank" class="nav-link">Twitter</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Forum</a>
+                            <a href="https://forum.kusama.network/" class="nav-link">Discord forum</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Riot</a>
+                            <a href="https://riot.im/app/#/room/#kusamawatercooler:polkadot.builders" target="_blank" class="nav-link">Riot chat</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Contact</a>
+                            <a href="contact.html" class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -295,40 +306,35 @@
                                     <p class="h1 mb-2">Stay in the loop</p>
                                     <p>Subscribe to the newsletter to hear about Kusama updates and events.</p>
                                 </div>
-                                <form action="/forms/mailchimp.php" data-form-email novalidate>
+                                <form action="https://network.us3.list-manage.com/subscribe/post?u=5a2f42d973542fc80fa925cec&amp;id=582fff042a" name="mc-embedded-subscribe-form" class="validate" novalidate method="post" data-form-email novalidate>
                                     <div class="form-row">
                                         <div class="col-12 mb-3">
                                             <p class="text-bold">What describes you best? (one or more)</p>
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="group-1">
-                                                <label class="custom-control-label text-small" for="group-1">I'm an enthusiast</label>
+                                                <input type="checkbox" class="custom-control-input" value="1" name="group[23917][1]" id="mce-group[23917]-23917-0">
+                                                <label class="custom-control-label text-small" for="mce-group[23917]-23917-0">I'm an enthusiast</label>
                                             </div>
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="group-2">
-                                                <label class="custom-control-label text-small" for="group-2">I'm a developer</label>
+                                                <input type="checkbox" class="custom-control-input"  value="2" name="group[23917][2]" id="mce-group[23917]-23917-1">
+                                                <label class="custom-control-label text-small" for="mce-group[23917]-23917-1">I'm a developer</label>
                                             </div>
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="group-3">
-                                                <label class="custom-control-label text-small" for="group-3">I'm a validator</label>
+                                                <input type="checkbox" class="custom-control-input" value="4" name="group[23917][4]" id="mce-group[23917]-23917-2">
+                                                <label class="custom-control-label text-small" for="mce-group[23917]-23917-2">I'm a validator</label>
                                             </div>
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="group-4">
-                                                <label class="custom-control-label text-small" for="group-4">I'm into governance</label>
+                                                <input type="checkbox" class="custom-control-input"  value="8" name="group[23917][8]" id="mce-group[23917]-23917-3">
+                                                <label class="custom-control-label text-small" for="mce-group[23917]-23917-3">I'm into governance</label>
                                             </div>
                                         </div>
                                         <div class="col-12 mb-2">
-                                            <input type="email" class="form-control" placeholder="Your email address" name="email" required>
+                                            <input type="email" value="" class="form-control required email" placeholder="Your email address" name="EMAIL" required id="mce-EMAIL">
                                         </div>
                                         <div class="col-12 mb-2">
-                                            <div class="d-none alert alert-success" role="alert" data-success-message>
-                                                Thanks for subscribing.
+                                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                                <input type="text" name="b_5a2f42d973542fc80fa925cec_582fff042a" tabindex="-1" value="">
                                             </div>
-                                            <div class="d-none alert alert-danger" role="alert" data-error-message>
-                                                Please fill all fields correctly.
-                                            </div>
-                                            <div data-recaptcha data-sitekey="INSERT_YOUR_RECAPTCHA_V2_SITEKEY_HERE" data-size="invisible" data-badge="bottomleft">
-                                            </div>
-                                            <button type="submit" class="btn btn-primary btn-loading btn-block" data-loading-text="Sending">
+                                            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="clear btn btn-primary btn-loading btn-block" data-loading-text="Sending">
                                                 <svg class="icon" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                                     <title>Icon For Loading</title>
                                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

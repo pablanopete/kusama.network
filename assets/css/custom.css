@@ -71,8 +71,8 @@ a:hover {
     color: #cd0061;
 }
 
-.text-spaced {
-    letter-spacing: 1em;
+strong {
+    font-weight: 600;
 }
 
 .btn-primary {
