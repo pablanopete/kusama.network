@@ -1,4 +1,4 @@
-[![](https://data.jsdelivr.com/v1/package/gh/AmauriC/tarteaucitron.js/badge)](https://www.jsdelivr.com/package/gh/AmauriC/tarteaucitron.js) 
+[![](https://data.jsdelivr.com/v1/package/gh/AmauriC/tarteaucitron.js/badge)](https://www.jsdelivr.com/package/gh/AmauriC/tarteaucitron.js)
 [![npm](https://img.shields.io/npm/v/tarteaucitronjs.svg)](https://www.npmjs.com/package/tarteaucitronjs) [![GitHub contributors](https://img.shields.io/github/contributors/AmauriC/tarteaucitron.js.svg)](https://github.com/AmauriC/tarteaucitron.js/graphs/contributors)
 
 tarteaucitron.js
@@ -35,9 +35,9 @@ tarteaucitron.init({
 
     "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
     "cookieName": "tartaucitron", /* Cookie name */
-    
+
     "orientation": "top", /* Banner position (top - bottom) */
-    "showAlertSmall": false, /* Show the small banner on bottom right */
+    "showAlertSmall": true, /* Show the small banner on bottom right */
     "cookieslist": true, /* Show the cookie list */
 
     "adblocker": false, /* Show a Warning if an adblocker is detected */
@@ -46,7 +46,7 @@ tarteaucitron.init({
     "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
 
     "removeCredit": false, /* Remove credit link */
-    "moreInfoLink": true, /* Show more info link */
+    "moreInfoLink": false, /* Show more info link */
     "useExternalCss": false /* If false, the tarteaucitron.css file will be loaded */
 
     //"cookieDomain": ".my-multisite-domaine.fr" /* Shared cookie for subdomain website */
